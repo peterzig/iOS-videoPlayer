@@ -14,6 +14,7 @@
 		B2044A63204499B900C724BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2044A61204499B900C724BA /* LaunchScreen.storyboard */; };
 		B2044A6E204499B900C724BA /* VideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2044A6D204499B900C724BA /* VideoPlayerTests.swift */; };
 		B2044A79204499B900C724BA /* VideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2044A78204499B900C724BA /* VideoPlayerUITests.swift */; };
+		B2044A8720449A6000C724BA /* video.mov in Resources */ = {isa = PBXBuildFile; fileRef = B2044A8620449A5F00C724BA /* video.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B2044A74204499B900C724BA /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2044A78204499B900C724BA /* VideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerUITests.swift; sourceTree = "<group>"; };
 		B2044A7A204499B900C724BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2044A8620449A5F00C724BA /* video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = video.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B2044A57204499B900C724BA /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B2044A8620449A5F00C724BA /* video.mov */,
 				B2044A58204499B900C724BA /* AppDelegate.swift */,
 				B2044A5A204499B900C724BA /* ViewController.swift */,
 				B2044A5C204499B900C724BA /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2044A8720449A6000C724BA /* video.mov in Resources */,
 				B2044A63204499B900C724BA /* LaunchScreen.storyboard in Resources */,
 				B2044A60204499B900C724BA /* Assets.xcassets in Resources */,
 				B2044A5E204499B900C724BA /* Main.storyboard in Resources */,
