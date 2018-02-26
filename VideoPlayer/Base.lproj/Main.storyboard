@@ -35,7 +35,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="playPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t1j-4y-I2Q"/>
+                                    <action selector="playPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQ5-lN-ThI"/>
                                 </connections>
                             </button>
                         </subviews>

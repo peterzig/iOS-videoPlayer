@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playPressed(_ sender: UIButton) {
-        if let filePath = Bundle.main.url(forResource: "video", withExtension: "MOV"){
+        if let filePath = Bundle.main.url(forResource: "video", withExtension: "mov"){
             
             let video = AVPlayer(url: filePath)
             let videoController = AVPlayerViewController()
@@ -30,9 +30,11 @@ class ViewController: UIViewController {
             present(videoController, animated: true, completion: {
                 video.play()
             })
-            
         }
     }
+    
+    
+    
     
 }
 
